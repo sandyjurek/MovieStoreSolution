@@ -13,6 +13,7 @@ namespace MovieStore.Services
         {
             return new MoviesRegistrationResultViewModel
             {
+                Id = viewModel.Id.ToUpper(),
                 Title = viewModel.Title.ToUpper(),
                 Genre = viewModel.Genre.ToUpper(),
                 Year = viewModel.Year.ToUpper(),

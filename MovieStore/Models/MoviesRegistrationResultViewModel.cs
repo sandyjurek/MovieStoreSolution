@@ -8,7 +8,7 @@ namespace MovieStore.Models
 {
     public class MoviesRegistrationResultViewModel
     {
-        public int Id { get; set; }
+        public string Id { get; set; }
 
         //[Required]
         //[StringLength(100)]
