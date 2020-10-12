@@ -15,6 +15,7 @@ namespace MovieStore.Services
             {
                 Title = viewModel.Title.ToUpper(),
                 Genre = viewModel.Genre.ToUpper(),
+                Year = viewModel.Year.ToUpper(),
                 Actor = viewModel.Actor.ToUpper(),
                 Director = viewModel.Director.ToUpper(),
                 Result = "Accepted"
