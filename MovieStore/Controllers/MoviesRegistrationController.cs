@@ -14,13 +14,13 @@ namespace MovieStore.Controllers
         }
 
         [HttpGet]
-        public ActionResult Index()
+        public IActionResult Index()
         {
             return View();
         }
 
         [HttpPost]
-        public ActionResult MoviesRegistrationResultView(MoviesRegistrationViewModel moviesRegistrationViewModel)
+        public IActionResult MoviesRegistrationResultView(MoviesRegistrationViewModel moviesRegistrationViewModel)
         {
             var result = _capitalizationService.Capitalize(moviesRegistrationViewModel);
             return View(result);
